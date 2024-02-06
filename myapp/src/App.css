@@ -1,0 +1,41 @@
+
+h1 {
+  text-align: center;
+  font-size: 3.2em;
+  line-height: 1.1;
+}
+
+h3{
+  text-align: center;
+  font-size: 2em;
+}
+body{
+  background-color: aliceblue;
+  width: 100vw;
+  height: 100vh;
+  color: black;
+}
+#parent{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+#button_div{
+  display: flex;
+  justify-content: center;
+}
+
+button{
+  margin-right: 5px;
+  padding: 10px;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+button:hover{
+  border: 2px solid rgb(255, 245, 245);
+  background-color: rgb(116, 116, 116);
+  color:  rgb(8, 8, 8);
+}
